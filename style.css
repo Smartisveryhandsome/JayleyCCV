@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIh-_5J6TVYpsswg0HFdEmZNykQpbk_izNxMNm5cf-SI4dv6lkfHibNJtSj2AlntixEeI&usqp=CAU");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  background-size: 500%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav button {
+  font-size: 16px;
+  padding: 4px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #0062cc;
+}
+
+main {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+ul li img:first-of-type {
+  width: 600px;
+  height: auto;
+}
